@@ -1,2 +1,2 @@
-!(SwiftUIStackView/Screenshots/regular.png)
-!(SwiftUIStackView/Screenshots/compact.png)
+![ALT TEXT](SwiftUIStackView/Screenshots/regular.png)
+![ALT TEXT](SwiftUIStackView/Screenshots/compact.png)
