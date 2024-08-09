@@ -11,6 +11,14 @@
 		6E9E2F002C662A8C00CE1D12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2EFF2C662A8C00CE1D12 /* ContentView.swift */; };
 		6E9E2F022C662A8E00CE1D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E2F012C662A8E00CE1D12 /* Assets.xcassets */; };
 		6E9E2F052C662A8E00CE1D12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E2F042C662A8E00CE1D12 /* Preview Assets.xcassets */; };
+		6E9E2F0C2C66360100CE1D12 /* VSignupButtonsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F0B2C66360100CE1D12 /* VSignupButtonsGroupView.swift */; };
+		6E9E2F0E2C6636EF00CE1D12 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F0D2C6636EF00CE1D12 /* HeaderView.swift */; };
+		6E9E2F102C66373900CE1D12 /* UsersGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F0F2C66373900CE1D12 /* UsersGroupView.swift */; };
+		6E9E2F122C6662CE00CE1D12 /* HSignupButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F112C6662CE00CE1D12 /* HSignupButtonGroupView.swift */; };
+		6E9E2F142C6664F500CE1D12 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F132C6664F500CE1D12 /* ButtonView.swift */; };
+		6E9E2F162C66668B00CE1D12 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E2F152C66668B00CE1D12 /* UserView.swift */; };
+		6E9E2F1D2C666C4C00CE1D12 /* regular.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E2F1B2C666C4C00CE1D12 /* regular.png */; };
+		6E9E2F1E2C666C4C00CE1D12 /* compact.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E2F1C2C666C4C00CE1D12 /* compact.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		6E9E2EFF2C662A8C00CE1D12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E9E2F012C662A8E00CE1D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9E2F042C662A8E00CE1D12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E9E2F0B2C66360100CE1D12 /* VSignupButtonsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSignupButtonsGroupView.swift; sourceTree = "<group>"; };
+		6E9E2F0D2C6636EF00CE1D12 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6E9E2F0F2C66373900CE1D12 /* UsersGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersGroupView.swift; sourceTree = "<group>"; };
+		6E9E2F112C6662CE00CE1D12 /* HSignupButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSignupButtonGroupView.swift; sourceTree = "<group>"; };
+		6E9E2F132C6664F500CE1D12 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6E9E2F152C66668B00CE1D12 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		6E9E2F192C666BE300CE1D12 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		6E9E2F1B2C666C4C00CE1D12 /* regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular.png; sourceTree = "<group>"; };
+		6E9E2F1C2C666C4C00CE1D12 /* compact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compact.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +68,17 @@
 		6E9E2EFC2C662A8C00CE1D12 /* SwiftUIStackView */ = {
 			isa = PBXGroup;
 			children = (
+				6E9E2F1A2C666C1400CE1D12 /* Screenshots */,
 				6E9E2EFD2C662A8C00CE1D12 /* SwiftUIStackViewApp.swift */,
 				6E9E2EFF2C662A8C00CE1D12 /* ContentView.swift */,
+				6E9E2F0D2C6636EF00CE1D12 /* HeaderView.swift */,
+				6E9E2F152C66668B00CE1D12 /* UserView.swift */,
+				6E9E2F0F2C66373900CE1D12 /* UsersGroupView.swift */,
+				6E9E2F132C6664F500CE1D12 /* ButtonView.swift */,
+				6E9E2F0B2C66360100CE1D12 /* VSignupButtonsGroupView.swift */,
+				6E9E2F112C6662CE00CE1D12 /* HSignupButtonGroupView.swift */,
 				6E9E2F012C662A8E00CE1D12 /* Assets.xcassets */,
+				6E9E2F192C666BE300CE1D12 /* Readme.md */,
 				6E9E2F032C662A8E00CE1D12 /* Preview Content */,
 			);
 			path = SwiftUIStackView;
@@ -65,6 +90,15 @@
 				6E9E2F042C662A8E00CE1D12 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E9E2F1A2C666C1400CE1D12 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6E9E2F1C2C666C4C00CE1D12 /* compact.png */,
+				6E9E2F1B2C666C4C00CE1D12 /* regular.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9E2F1D2C666C4C00CE1D12 /* regular.png in Resources */,
+				6E9E2F1E2C666C4C00CE1D12 /* compact.png in Resources */,
 				6E9E2F052C662A8E00CE1D12 /* Preview Assets.xcassets in Resources */,
 				6E9E2F022C662A8E00CE1D12 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9E2F102C66373900CE1D12 /* UsersGroupView.swift in Sources */,
+				6E9E2F0C2C66360100CE1D12 /* VSignupButtonsGroupView.swift in Sources */,
 				6E9E2F002C662A8C00CE1D12 /* ContentView.swift in Sources */,
+				6E9E2F162C66668B00CE1D12 /* UserView.swift in Sources */,
+				6E9E2F122C6662CE00CE1D12 /* HSignupButtonGroupView.swift in Sources */,
 				6E9E2EFE2C662A8C00CE1D12 /* SwiftUIStackViewApp.swift in Sources */,
+				6E9E2F0E2C6636EF00CE1D12 /* HeaderView.swift in Sources */,
+				6E9E2F142C6664F500CE1D12 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

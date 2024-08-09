@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(\.verticalSizeClass) var verticalSizeClass
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            HeaderView()
+            UsersGroupView()
+            Text("Need help with coding problems? Register!")
+            
+            Spacer()
+            
+            if verticalSizeClass == .compact {
+                HSignupButtonGroupView()
+            } else {
+                VSignupButtonsGroupView()
+            }
         }
-        .padding()
+        .padding(.top, 30)
     }
 }
 
