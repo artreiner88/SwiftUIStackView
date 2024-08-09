@@ -33,9 +33,9 @@
 		6E9E2F112C6662CE00CE1D12 /* HSignupButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSignupButtonGroupView.swift; sourceTree = "<group>"; };
 		6E9E2F132C6664F500CE1D12 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		6E9E2F152C66668B00CE1D12 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
-		6E9E2F192C666BE300CE1D12 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		6E9E2F1B2C666C4C00CE1D12 /* regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regular.png; sourceTree = "<group>"; };
 		6E9E2F1C2C666C4C00CE1D12 /* compact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compact.png; sourceTree = "<group>"; };
+		6E9E2F1F2C66700900CE1D12 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +52,7 @@
 		6E9E2EF12C662A8C00CE1D12 = {
 			isa = PBXGroup;
 			children = (
+				6E9E2F1F2C66700900CE1D12 /* Readme.md */,
 				6E9E2EFC2C662A8C00CE1D12 /* SwiftUIStackView */,
 				6E9E2EFB2C662A8C00CE1D12 /* Products */,
 			);
@@ -78,7 +79,6 @@
 				6E9E2F0B2C66360100CE1D12 /* VSignupButtonsGroupView.swift */,
 				6E9E2F112C6662CE00CE1D12 /* HSignupButtonGroupView.swift */,
 				6E9E2F012C662A8E00CE1D12 /* Assets.xcassets */,
-				6E9E2F192C666BE300CE1D12 /* Readme.md */,
 				6E9E2F032C662A8E00CE1D12 /* Preview Content */,
 			);
 			path = SwiftUIStackView;
